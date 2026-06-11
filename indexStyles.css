@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Huninn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: rgb(0, 0, 0);
+    transition: 0.6s;
+}
+
+div {
+    overflow: hidden;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: rgb(255, 183, 100);
+}
+
+/* Header */
+
+header {
+    height: 10vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(176, 82, 19, 0.898), rgba(242, 128, 35, 0.801), rgb(252, 162, 82));
+    padding-bottom: 0.5vh;
+}
+
+#header-logo-name {
+    font-family: 'Comfortaa';
+    color: rgb(255, 223, 165);
+    font-size: 39px;
+    font-weight: 500;
+    text-wrap: nowrap;
+    width: 100%;
+}
+#header-logo-name::before {
+    content: "";
+    display: inline-block;
+    background-image: url('images/logo.png');
+    width: 40px;
+    height: 47px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 4px;
+    vertical-align: middle;
+}
+
+/* Main */
+
+/* <!-- Info about --> */
+#info_about {
+    padding-bottom: 10vh;
+    display: flex;
+    background: linear-gradient(rgb(254, 171, 98), rgb(223, 160, 106), rgb(251, 174, 107), rgb(252, 183, 114), rgb(254, 190, 134));
+}
+
+#info_about img {
+    width: 20%;
+    height: auto;
+    margin: 1.5%;
+    margin-right: 7%;
+    border-radius: 20px;
+    flex: 0.6;
+    opacity: 86%;
+}
+
+#info_about-content {
+    flex: 1.4;
+}
+
+#info_about-text {
+    margin: 5%;
+}
+#info_about-text h1 {
+    margin-top: 8%;
+    font-size: 54px;
+    font-family: 'Comfortaa'; font-weight: 900;
+}
+#info_about-text p {
+    width: 90%;
+    font-size: 28px;
+    font-family: 'Comfortaa';
+}
+
+/* Main offers sections */
+
+#main-offers-sections {
+    background: linear-gradient( rgb(253, 190, 135),rgb(226, 157, 97), rgba(222, 149, 86, 0.801), rgb(210, 152, 100), rgb(218, 150, 95), rgb(255, 185, 124));
+}
+
+/* <!-- Intro section --> */
+#main-offers-intro_s1 {
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 33px;
+    font-family: 'Gentium Book Plus';
+}
+
+/* <!-- section2 --> */
+#main-offer1 {
+    display: flex;
+    text-align: center;
+}
+
+#main-offer1-text {
+    flex: 1;
+    margin: 3%;
+    margin-left: 5%;
+}
+#main-offer1-text h3 {
+    margin-top: 10%;
+    font-family: 'Huninn';
+    font-size: 50px;
+}
+#main-offer1-text p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+
+#main-offer1 img {
+    margin: 3%;
+    margin-right: 13%;
+    border-radius: 20px;
+} 
+
+/* <!-- section3 --> */
+#main-offer2 {
+    display: flex;
+}
+
+#main-offer2 img {
+    margin: 3%;
+    margin-top: 0;
+    margin-left: 12%;
+    border-radius: 20px;
+}
+
+#main-offer2-text {
+    flex: 1;
+    margin: 3%;
+    margin-left: auto;
+    margin-right: 12%;
+    text-align: right;
+    margin-top: 8%;
+}
+#main-offer2-text h3 {
+    font-family: 'Huninn';
+    font-size: 50px;   
+}
+#main-offer2-text p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;    
+}
+
+/* <!-- section4 --> */
+#main-offer3 {
+    display: flex;
+}
+
+#main-offer3-text {
+    flex: 1;
+    margin: 3%;
+    margin-left: 13%;
+    margin-top: 5%;
+}
+#main-offer3-text h3 {
+    margin-top: 6%;
+    font-family: 'Huninn';
+    font-size: 50px;
+}
+#main-offer3-text p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+
+#main-offer3 img {
+    margin: 3%;
+    margin-top: 0;
+    margin-right: 13%;
+    border-radius: 20px;
+} 
+
+/* <!-- section5 --> */
+#main-offer4 {
+    display: flex;
+    text-align: center;
+}
+
+#main-offer4 img {
+    margin: 3%;
+    margin-top: 0;
+    margin-left: 12%;
+    border-radius: 20px;
+    width: 30%;
+}
+
+#main-offer4-text {
+    flex: 1;
+    margin: 3%;
+    margin-top: 6%;
+    margin-left: auto;
+    margin-right: 12%;
+}
+#main-offer4-text h3 {
+    font-family: 'Huninn';
+    font-size: 50px;   
+}
+#main-offer4-text p {
+    margin-top: 7%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;    
+}
+
+/* Menu */
+
+#menu-div {
+    background: linear-gradient(rgb(255, 182, 118),  rgb(251, 195, 145), rgb(252, 175, 112), rgb(255, 169, 94));
+    padding-top: 4vh;
+    padding-bottom: 18vh;
+}
+
+#main-menu {
+    margin-top: 8vh;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    text-align: center;
+}
+
+#menu-intro {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Comfortaa';
+}
+
+#main-menu-offer1-shawarma img {
+    border-radius: 20px;
+}
+#main-menu-offer2-shawarma img {
+    border-radius: 20px;
+}
+#main-menu-offer3-shawarma img {
+    border-radius: 20px;
+}
+
+#main-menu-offer1-text {
+    font-family: 'Inter';
+}
+#main-menu-offer1-text h4 {
+    font-size: 18px;
+    margin-top: 2%;
+}
+
+#main-menu-offer2-text {
+    font-family: 'Inter';
+}
+#main-menu-offer2-text h4 {
+    font-size: 18px;
+    margin-top: 2%;
+}
+
+#main-menu-offer3-text {
+    font-family: 'Inter';
+}
+#main-menu-offer3-text h4 {
+    font-size: 18px;
+    margin-top: 2%;
+}
+
+/* Foooterrr */
+
+footer {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 3vh;
+    padding-top: 4vh;
+    background: linear-gradient(rgb(255, 153, 63), rgb(255, 163, 83),  rgb(255, 153, 64), rgb(246, 120, 42));
+}
+
+#footer-columns {
+    margin-left: auto;
+    display: flex;
+    margin-right: 2%;
+    margin-top: 1%;
+    gap: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: rgb(175, 175, 175);
+    transition: 0.5s;
+}
+
+/* <!-- Left column --> */
+
+#left-column {
+    margin: 2%;
+
+}
+#left-column h3 {
+    font-family: 'Comfortaa';
+    font-size: 25px;
+}
+
+#left-column h3::before {
+    content: "";
+    display: inline-block;
+    background-image: url(images/logo.png);
+    width: 30px;
+    height: 36px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 4px;
+    vertical-align: middle;   
+}
+
+#left-column p {
+    margin-top: 3%;
+    font-size: 14px;
+    font-family: 'Inter';
+}
+
+/* <!-- Center column --> */
+#center-column-text {
+    display: flex;
+    flex-direction: column;
+}
+#center-column-text h3 {
+    font-size: 18px;
+    font-family: 'Comfortaa';
+    margin-bottom: 5%;
+}
+#center-column-text a {
+    font-family: 'Inter';
+    font-size: 14px;
+    margin-top: 5%;
+}
+
+/* <!-- Right column --> */
+#right-column-text {
+    display: flex;
+    flex-direction: column;
+}
+#right-column-text h3 {
+    font-size: 18px;
+    font-family: 'Comfortaa';
+    margin-bottom: 10%;
+}
+#right-column-text a {
+    font-family: 'Inter';
+    font-size: 14px;
+    margin-top: 6%;
+}
